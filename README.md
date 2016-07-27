@@ -1,7 +1,8 @@
-### qcloudapi
+#qcloudapi-base
 
-#针对腾讯云API的调用客户端代码。
-
+##针对腾讯云API的调用客户端代码。
+请参考子项目：qcloudapi-zb 
+使用maven导入项目
 ```java
 public class SimpleTest {
 	ChannelService service = new ChannelService(

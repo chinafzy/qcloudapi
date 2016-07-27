@@ -102,7 +102,7 @@ public abstract class BaseService {
         // use s standalone logger for httpclient(httpreqest) only.
         final Logger hclog = LoggerFactory.getLogger(BaseService.class);
 
-        hclog.info("== Start request " + idx);
+        hclog.info("== {} == Start request ", idx);
 
         CloseableHttpClient hc = HttpClients.createDefault();
 
