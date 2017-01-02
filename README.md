@@ -68,7 +68,7 @@ public class SimpleTest {
             try {
                 service.describeChannel(id);
 
-                Assert.fail("Channle shoud have be remoted before: " + id);
+                Assert.fail("Channle shoud have be removed before: " + id);
             } catch (BusinessException ex) {
                 Assert.assertEquals(4000, ex.getCode());
             }
