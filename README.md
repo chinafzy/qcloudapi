@@ -1,4 +1,6 @@
 #qcloudapi-base
+对比腾讯官方的API，简单很多，偶然看见他们升级到V2版本了，依然是不够友好。
+https://github.com/QcloudApi/qcloudapi-sdk-java
 
 ##针对腾讯云API的调用客户端代码。
 请参考子项目：qcloudapi-zb 
